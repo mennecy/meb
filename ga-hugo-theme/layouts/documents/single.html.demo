@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- border syle -->
+  <style>
+  .border {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+  }
+  </style>
+</head>
+<body>
+<!-- HD -->
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<br>
+
+<div class="container">
+  <h3>Collapsible Navbar</h3>
+  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
+  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
+  <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.</p>
+</div>
+
+
+<!-- HD -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">Logo</a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 3</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="container-fluid">
+  <h3>Brand / Logo</h3>
+  <p>The .navbar-brand class is used to highlight the brand/logo/project name of your page.</p>
+</div>
+
+<!-- HD -->
+
+
+
+<div class="container">
+  <h2>Toggleable Tabs</h2>
+  <br>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="home" class="container tab-pane active"><br>
+      <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div id="menu1" class="container tab-pane fade"><br>
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="menu2" class="container tab-pane fade"><br>
+      <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+  </div>
+</div>
+
+	<!--HD -->
+<div class="container">
+  <h2>Nesting Button Groups</h2>
+  <p>Nest button groups to create dropdown menus:</p>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Sony
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Tablet</a>
+        <a class="dropdown-item" href="#">Smartphone</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HD -->
+<!-- HD -->
+
+<div class="container-fluid">
+  <h1>Three equal width columns</h1>
+  <p>Note: Try to add a new div with class="col" inside the row class - this will create four equal-width columns.</p>
+  <div class="row">
+    <div class="col" style="background-color:lavender;">
+    		<h1 class="display-1"> 
+    			<blockquote class="blockquote">
+    				<p class="bg-dangerwhite">
+    					Dicko Hamadoun</h1>
+    				</p>
+    				<footer class="blockquote-footer">dicko.hamadoun@gmail.com</footer>
+  				</blockquote>
+  			</h1> 
+    </div>
+    <div class="shadow-lg p-4 mb-4 bg-white">Large shadow
+    <div class="col" style="background-color:orange;"> {{ .Content }} </div>
+</div>
+    <div class="col" style="background-color:lavender;"> 
+    	<h1 class="display-4"> Reseaux Sociaux <link href="https://www.linkedin.com/in/hamadoundicko" rel="stylesheet"></h1>
+		<dl>
+    		<dt> LinkedIn </dt>
+    			<dd> <img src="/img/hd_interex.JPG"  class="rounded-circle" alt="Cinque Terre" width="304" height="236"> </dd>
+    		<dt>Milk</dt>
+    			<dd> <link href="https://www.linkedin.com/in/hamadoundicko" rel="stylesheet"> Cafe au lait  </dd>
+  		</dl>  
+    </div>
+  </div>
+</div>
+<div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Reseaux Sociaux
+    </button>
+    <div class="clearfix">
+    	<span class="float-right">Float right
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="https://www.linkedin.com/in/hamadoundicko">LinkedIn</a>
+      <a class="dropdown-item" href="https://www.twitter.com/@HamadounDicko">twetter</a>
+      <a class="dropdown-item" href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">wikipedia france</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Autres Info utiles </a>
+</span>
+        <div class="dropdown dropleft float-right">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Cartes
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="https://www.vianavigo.com/accueil">vianavigo</a>
+      <a class="dropdown-item" href="#">Link 2</a>
+      <a class="dropdown-item" href="#">Link 3</a>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <h2>Dropdowns</h2>
+  <p>Add the .dropdown-menu-right class to .dropdown-menu to right-align the dropdown menu.</p>
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Wide dropdown button to demonstrate this example
+    </button>
+    <div class="dropdown-menu dropdown-menu-right">
+      <a class="dropdown-item" href="#">Link 1</a>
+      <a class="dropdown-item" href="#">Link 2</a>
+      <a class="dropdown-item" href="#">Link 3</a>
+    </div>
+  </div>
+</div>
+
+<!-- HD Caroussel -->
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="la.jpg" alt="Los Angeles">
+    </div>
+    <div class="carousel-item">
+      <img src="chicago.jpg" alt="Chicago">
+    </div>
+    <div class="carousel-item">
+      <img src="ny.jpg" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+<!-- HD -->
+
+</body>
+</html>

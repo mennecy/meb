@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mennecy Echange Boni</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Add the header here from the partial -->
+    {{ partial "header.html" . }}
+
+
+
+    <!-- end header -->
+
+    <!-- jumbotron for the main header from the index page -->
+
+    <div class="jumbotron text-center text-white  bg-dark ">
+        <div class="container" style="height: 100px;">
+            <!-- 
+    <div class="site-heading">
+        <h1>Une Alternative pour Mennecy.</h1>
+        <hr class="small">
+        {{ with .Site.Params.Description }}<span class="subheading">{{ . }}</span>{{ end }}
+      -->
+        </div>
+    </div>
+    </div>
+
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h3>Quelle est notre Charte</h3>
+                <blockquote>Face à l'inertie du système qui nous condamne au niveau national à subir une crise écologique et sociale d’ampleur et le manque d’alternance politique sur Mennecy depuis plusieurs décennies, les signataires de cette liste ont décidé de
+                    s’unir pour construire une alternative démocratique, participative pour la défense des valeurs de l'écologie, de la justice sociale afin d’améliorer le cadre de vie des menneçois et faire de Mennecy une ville accueillante et agréable
+                    à vivre. Rassemblement citoyen et populaire , réunissant militant(e)s politiques, syndicaux, associatifs, citoyen(ne) volontaire …chacun affichant ou non son appartenance pour définir un programme pour MENNECY. </blockquote>
+
+                <h3>Qui sommes nous?</h3>
+                <blockquote>Rassemblement citoyen et populaire , réunissant militant(e)s politiques, syndicaux, associatifs, citoyen(ne) volontaire …chacun affichant ou non son appartenance pour définir un programme pour MENNECY avec vous</blockquote>
+                <h3>Que voulons nous?</h3>
+                <blockquote>- Proposer un aménagement harmonieux de la commune, proposer un habitat responsable adapté pour tous, mettre un frein à l’urbanisation à outrance, à la spéculation immobilière - Oeuvrer pour un équilibre écologique et social, pour relever
+                    les défis environnementaux mettre en place chaque fois que possible, les solutions adaptées - Donner la priorité aux services publics, défendre leur présence sur le territoire - Permettre à tous les jeunes d'accéder plus facilement
+                    aux établissements scolaires, mener une politique scolaire favorisant l’épanouissement de tous notamment des plus démunis, s’inscrire dans le développement de la culture accessible à tous - Repenser et dynamiser les infrastructures
+                    de circulation et de transports (routiers, vélos, collectifs) pour favoriser la mobilité des menneçois - Mettre en place la transparence budgétaire, réduire les privatisations, faire des consultations sur les grands projets municipaux,
+                    créer des budgets participatifs, oeuvrer pour le maintien d’un budget municipal permettant d’une part de lutter contre l’application de l’austérité et d’autre part nécessaire pour répondre aux attentes des habitants et à la réalisation
+                    des objectifs de campagne - Assurer la sécurité des citoyens dans le respect des libertés individuelles.</blockquote>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main content -->
+
+
+    <!-- Pager -->
+    <div>
+        <ul class="pager">
+            <li class="pagination__item pagination__item--previous">
+                <a href="/about/" class="pagination__link pagination__link--previous">Nous connaitre?</a>
+            </li>
+
+            <li class="pagination__item pagination__item--previous">
+                <a href="{{ .URL }}docs/municipales/infos/chartev2.pdf" class="pagination__link pagination__link--previous">Notre  charte</a>
+            </li>
+
+        </ul>
+        <!-- Return to Top -->
+        <a href="javascript:" id="top"><i class="icon-chevron-up"></i></a>
+    </div>
+
+
+    <!-- partial footer 
+{{ partial "footer.html" . }}
+-->
+    {{ partial "carousel.html" . }}
+
+</body>
+
+</html>

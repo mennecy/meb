@@ -1,0 +1,65 @@
+<!-- /.navbar-collapse --><!-- sidebar start -->
+<style> { 
+
+.dropdown-toggle {
+     background-color: transparent ;
+}
+
+</style>
+
+<!-- nav bar --> 
+<div class="container">
+  <nav class="navbar-default navbar sticky-top navbar-expand-lg flex-row nav-fill">
+
+  {{ $currentPage := . }}
+  {{ range .Site.Menus.main }}
+    {{ if .HasChildren }}
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+        </ul>
+      </div>
+
+    {{ else }}
+        
+      <li class="nav-item">
+         <a href="{{ .URL }}">{{ .Name }} <span class="sr-only">(current)</span></a> </a>
+      </li>
+
+    {{ end }} <!-- end if --> 
+      
+    {{ end }}  <!-- end range --> 
+
+
+<li class="dropdown flex-column ">
+    <a class="nav-link dropdown-toggle" id="nname" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a> 
+
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="https://www.lemonde.fr" target="_blank">Le Journal le Monde</a>
+    
+    <div class="dropdown-divider"></div> 
+
+      <a class="dropdown-item" href="http://www.mennecy.fr" target="_blank">Site officiel de mennecy</a>
+      <div class="dropdown-divider"></div> 
+      <a class="dropdown-item" href="http://www.journaldunet.com/business/budget-ville/mennecy/ville-91386">Journal Du Net - Mennecy</a>
+      <div class="dropdown-divider"></div> 
+      <a class="dropdown-item" href="https://www.ademe.fr/demain-territoire">Ademe</a>
+    </div>
+      
+  </li>
+    
+
+
+</div>
+</nav>
+      
+
+      
+  
+
+
+
+

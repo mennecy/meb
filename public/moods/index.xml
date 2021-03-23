@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Moods on Mennecy Echange Boni</title>
+    <link>https://mennecy-echange-boni.github.io/moods/</link>
+    <description>Recent content in Moods on Mennecy Echange Boni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Nov 2019 15:53:20 +0100</lastBuildDate><atom:link href="https://mennecy-echange-boni.github.io/moods/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>douentza</title>
+      <link>https://mennecy-echange-boni.github.io/moods/douentza/</link>
+      <pubDate>Tue, 05 Nov 2019 15:53:20 +0100</pubDate>
+      
+      <guid>https://mennecy-echange-boni.github.io/moods/douentza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meb</title>
+      <link>https://mennecy-echange-boni.github.io/moods/meb/</link>
+      <pubDate>Tue, 05 Nov 2019 15:45:33 +0100</pubDate>
+      
+      <guid>https://mennecy-echange-boni.github.io/moods/meb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mennecy</title>
+      <link>https://mennecy-echange-boni.github.io/moods/mennecy/</link>
+      <pubDate>Tue, 05 Nov 2019 15:45:33 +0100</pubDate>
+      
+      <guid>https://mennecy-echange-boni.github.io/moods/mennecy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

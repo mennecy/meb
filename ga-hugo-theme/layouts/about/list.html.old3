@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+<style>
+  /* 
+.wrapper { 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  grid-auto-rows: 100px; 
+} 
+.col
+{
+  background: green;
+}
+*/
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid"> 
+
+ {{ partial "header.html" . }} 
+
+<!-- end header -->
+
+  <div class="jumbotron-fluid text-center text-white  bg-dark "> 
+  <div class="container" style="height: 100px;">
+    <h1>Qui Sommes Nous?</h1>
+    
+    <hr class="my-4">
+ </div> 
+</div>
+
+
+<!-- <div class="container-fluid"> -->
+<!-- <div class="container-fluid" style="height: 500px";> --> 
+
+  <div class="row scroll flex-nowrap">
+    {{ range .Pages }}
+    <div class="col-sm image-holdertext-center">
+   
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        
+    </div>
+
+    {{ end }}
+  
+  </div>
+</div>
+
+<!-- Footer here -->
+
+<div class="col" style="background:blue;">
+  <li> {{ partial "footer" . }} </li>
+</div>
+
+
+
+</body>
+</html>
+               

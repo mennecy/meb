@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<body>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <ul class="list-inline text-center">
+                    {{ with .Site.Params.email }}
+                      <li>
+                        <a href="mailto:{{ . }}">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                    {{ end }}
+
+
+<section class="container centered">
+  <div class="about">
+    {{ with .Site.Params.avatarurl }}
+      <div class="avatar"><img src="{{ . | absURL }}" alt="avatar"></div>
+    {{ end }}
+    <h1>{{ .Site.Params.author }}</h1>
+    <h2>{{ .Site.Params.info }}</h2>
+    <h3>{{ .Site.Params.address }}</h3>
+    <h4>{{ .Site.Params.tel }}</h4>
+    {{ with .Site.Params.social }}
+    <hr />
+    <ul class="social-list">
+      {{ range sort . "weight"}}
+        <li class="social-item">
+          <a href="{{ .url }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }}>
+            
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa {{ .icon}} fa-stack-1x fa-inverse"> </i>
+              </span>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+</section>
+
+
+
+
+
+
+                  <p class="copyright text-muted">{{ .Site.Copyright }}</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="{{ .Site.BaseURL }}/js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ .Site.BaseURL }}/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="{{ .Site.BaseURL }}/js/clean-blog.js"></script>
+
+    <script src="{{ .Site.BaseURL }}/js/scroll-top.js"></script>
+
+    {{ template "_internal/google_analytics.html" . }}
+
+</body>
+
+</html>

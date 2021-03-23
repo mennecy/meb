@@ -1,0 +1,121 @@
+{{ partial "header.html" . }}
+
+    <!-- Page Header -->
+    <header class="intro-header" style="background-color: #134636;">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-8 col-lg-offset-2 col-md-4 col-md-offset-1">
+           <div class="site-heading">
+             <h1>Nos Membres</h1>
+             <hr class="small">
+             <span class="subheading">{{ .Description }}</span>
+           </div>
+         </div>
+       </div>
+     </div>
+    </header>
+
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  {{ .Content }}
+                  This is the content
+                  {{ partial "comments.html" .}} 
+                  "after comments"
+                  <section class="container list">
+                    <h1 class="title">{{ .Title }}</h1>
+                      <ul>
+                        {{ range .Paginator.Pages }}
+                        <li>
+                          <span>  > </span>
+                              <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </li>
+                        {{ end }}
+                      </ul>
+  
+                  </section>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <!-- Main Content 
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            {{ $paginator := .Paginate (where .Data.Pages.ByDate "Type" "post") }}
+
+            {{ $posts := or .Site.Params.PostSummariesFrontPage 4 }}
+
+            {{ range $paginator.Pages }}
+
+                {{ .Render "summary"}}
+
+            {{ end }}
+        </div>
+    </div>
+    {{ $paginator := .Paginator }}
+
+    <!-- If there's more than one page. -->
+    {{ if gt $paginator.TotalPages 1 }}
+
+    <ul class="pager">
+
+        <!-- First page.
+        {{ if ne $paginator.PageNumber 1 }}
+        <li class="pagination__item pagination__item&#45;&#45;first">
+            <a class="pagination__link pagination__link&#45;&#45;first" href="{{ $paginator.First.URL }}">
+                ««
+            </a>
+        </li>
+        {{ end }}-->
+
+        <!-- Previous page. -->
+        {{ if $paginator.HasPrev }}
+        <li class="pagination__item pagination__item--previous">
+            <a href="{{ $paginator.Prev.URL }}" class="pagination__link pagination__link--previous">
+                «
+            </a>
+        </li>
+        {{ end }}
+
+        <!-- Page numbers.
+        {{ range $paginator.Pagers }}
+        <li class="pagination__item{{ if eq . $paginator }} pagination__item&#45;&#45;current{{ end }}">
+            <a href="{{ .URL }}" class="pagination__link">
+                {{ .PageNumber }}
+            </a>
+        </li>
+        {{ end }}-->
+
+        <!-- Next page. 
+        {{ if $paginator.HasNext }}
+        <li class="pagination__item pagination__item--next">
+            <a href="{{ $paginator.Next.URL }}" class="pagination__link pagination__link--next">
+                »
+            </a>
+        </li>
+        {{ end }} -->
+
+       <!-- &lt;!&ndash; Last page. &ndash;&gt;
+        {{ if ne $paginator.PageNumber $paginator.TotalPages }}
+        <li class="pagination__item pagination__item&#45;&#45;last">
+            <a class="pagination__link pagination__link&#45;&#45;last" href="{{ $paginator.Last.URL }}">
+                »»
+            </a>
+        </li>
+        {{ end }}-->
+
+    </ul><!-- .pagination -->
+    {{ end }}
+
+    <!-- Return to Top 
+    <a href="javascript:" id="top"><i class="icon-chevron-up"></i></a> 
+-->
+
+</div>
+
+{{ partial "footer.html" . }}

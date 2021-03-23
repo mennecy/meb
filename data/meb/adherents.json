@@ -1,0 +1,23 @@
+{
+    "CR": {
+        "nom": "Claude Roumejon",
+        "fonction": "President de CA",
+        "adresse": "Mennecy",
+        "email": "cd@google.com",
+        "Tel": "-86.279118"
+    },
+    "JMB": {
+        "nom": "Jean-Marie Bonneau",
+        "fonction": "Informaticien",
+        "adresse": "Abidjan",
+        "email": "58.301935",
+        "Tel": "-134.419740"
+    },
+    "HD": {
+        "nom": "Hamadoun Dicko",
+        "fonction": "Informaticien devOps, Unix, Web",
+        "adresse": "Informaticien",
+        "email": "dicko.hamadoun@gmail.com ",
+        "Tel": "10, rue des ormes - 91540 Mennecy"
+    }
+}

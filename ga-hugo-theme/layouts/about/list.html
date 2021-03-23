@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Une Alternative pour Mennecy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <style>
+        #container {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        body {
+            margin: 10px;
+            padding: 5px;
+            border: 1px solid silver
+        }
+    </style>
+</head>
+
+<body>
+    {{ partial "header.html" . }}
+    <p>
+        <a class="btn btn-primary mx-auto d-block" data-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">Qui somme nous?</a>
+    </p>
+    <div class="collapse" id="multiCollapseExample1">
+        {{ range .Pages }}
+        <div class="card-deck">
+            <div class="card" style="width:100px">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=980bfa5efe19afbbd559240051fbc95b" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Titre</h4>
+                    <p class="card-text">Habite Mennecy depuis 1988.</p>
+                    <a href="{{.Permalink}}" class="btn btn-primary">En savoir plus</a>
+                </div>
+                <div class="card-header">
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </div>
+                <div class="card-footer text-muted">
+                </div>
+            </div>
+        </div>
+        {{ end }}
+
+    </div>
+    </div>
+
+
+
+    <!--  footer  -->
+    <!-- 
+</div>
+  <li> {{ partial "footer" . }} </li>
+</div>
+-->
+    <!-- Pager -->
+    <div>
+        <!-- Return to Top -->
+        <a href="javascript:" id="top"><i class="icon-chevron-up"></i></a>
+    </div>
+
+
+
+</body>
+
+</html>
