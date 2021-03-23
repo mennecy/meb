@@ -11,7 +11,13 @@ author: "Hamadoun Dicko"
 ***
 
 *  Reunions et Compte rendus
-	* [Repas solidaire 2018 - Mennecy](/Boni/repas-solidaire092019.png)
+	* [Formation accoucheuses](/Boni/rapport-de-formation2020.pdf)
+
+	* [Liste de presence pour la formation d'accoucheuses](/Boni/liste-presence--formation2020.pdf)
+
+	* [Lettre de rentree MEB 2020](/Boni/LettrederentréeMEBsept2020.pdf)
+
+	* [Repas solidaire 2019 - Mennecy](/Boni/repas-solidaire092019.png)
 
 	* [ Compte rendu de reunion  du CA le 17 Septembre 2020](/Boni/cr-reunion-ca-17-sept-2020.pdf)
 	* [ Compte rendu de reunion  du CA le 23 Juin 2020](/Boni/CR-CA-MEB-23-juin-2020.pdf)
@@ -23,12 +29,7 @@ author: "Hamadoun Dicko"
 
 	* [ Festival Solidaite -Ecole ou Travail 16 Novembre 2019 CERNY](/Boni/cerny-16-novembre2019.jpg)
 	
-	* [Formation accoucheuses](/Boni/rapport-de-formation2020.pdf)
-
-	* [Liste de presence pour la formation d'accoucheuses](/Boni/liste-presence--formation2020.pdf)
-
-	* [Lettre de rentree MEB 2020](/Boni/LettrederentréeMEBsept2020.pdf)
-
+	
 
 ***
 # Distribution de tractage et location
