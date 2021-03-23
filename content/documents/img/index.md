@@ -4,25 +4,27 @@ date: 2021-01-12T17:13:11+01:00
 draft: false
 author: "Hamadoun Dicko"
 ---
-
+{{< load-photoswipe >}}
 
 
 {{< gallery dir="/documents/img/" hover-effect="grow" hover-transition="none" >}}
 
-{{< load-photoswipe >}}
+
 
 ___
 >
-> * [Galerie de Photo](/galleries/ohd/)
+> 
+>>> gallerie de photos
+* [Famille Dicko Oumar a Bamako au Mali](/galleries/ohd/)
 >
 ___
 >>> Formation Accoucheuses
 * [Formation accoucheuses](/Boni/rapport-de-formation2020.pdf)
 
 * [Liste de presence pour la formation d'accoucheuses](/Boni/liste-presence--formation2020.pdf)
-
-___
+__
+>>> Rentree de MEB 2020
 * [Lettre de rentree MEB 2020](/Boni/LettrederentréeMEBsept2020.pdf)
-
+>>> Repas 2019
 * [Repas solidaire 2019 - Mennecy](/Boni/repas-solidaire092019.png)
 
