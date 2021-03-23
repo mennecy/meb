@@ -8,9 +8,6 @@ author: "Hamadoun Dicko"
 
 
 {{< gallery dir="/documents/img/" hover-effect="grow" hover-transition="none" >}}
-
-
-
 ___
 >
 > 
@@ -22,7 +19,7 @@ ___
 * [Formation accoucheuses](/Boni/rapport-de-formation2020.pdf)
 
 * [Liste de presence pour la formation d'accoucheuses](/Boni/liste-presence--formation2020.pdf)
-__
+___
 >>> Rentree de MEB 2020
 * [Lettre de rentree MEB 2020](/Boni/LettrederentréeMEBsept2020.pdf)
 >>> Repas 2019
