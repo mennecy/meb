@@ -1,4 +1,4 @@
-baseURL = "https://mennecy-echange-boni.github.io/"
+relativeURLs = true
 languageCode = "en-us"
 title = "Mennecy Echange Boni"
 theme = "boni-theme"
