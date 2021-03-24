@@ -2,12 +2,10 @@
 title: "Documents"
 date: 2019-11-06T10:19:53+01:00
 draft: false
-images:
-    imageA: "images de Mennecy"
-    imageB: "images de Paris"
 ---
- {{< load-photoswipe >}}
 ___
+
+ {{< load-photoswipe >}}
 
 {{< myshortcode red bg-success "Images de Mennecy" >}}
 <!--foldergalelery shorcode  point on images in the static directory only  --> 

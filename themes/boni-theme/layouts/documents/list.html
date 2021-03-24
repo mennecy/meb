@@ -67,7 +67,7 @@
             {{ with .Resources.ByType "image" }} {{ range . }} {{ $original := . }} {{ $alt := $original }} {{ $fited := $original.Fit "200x200" }}
             <div class="col bg-body">
                 <a data-fancybox="x" class="info" href="{{ $original }}">
-                    <img class="img-responsive" src="{{ $fited.RelPermalink }}" alt="gfg">
+                    <img class="img-responsive" src="{{ $fited.RelPermalink }}" alt="meb">
                 </a>
             </div>
             {{ end }} {{ end }}
