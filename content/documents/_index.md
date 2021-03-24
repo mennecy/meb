@@ -3,14 +3,14 @@ title: "Documents"
 date: 2019-11-06T10:19:53+01:00
 draft: false
 images:
-    imageA: "images A"
-    imageB: "images B"
+    imageA: "images de Mennecy"
+    imageB: "images de Paris"
 ---
  {{< load-photoswipe >}}
 ___
 
-{{< myshortcode red bg-success "Images de la famille Dicko" >}}
-<!--foldergalelery shorcode  point on images in teh static directory only  --> 
+{{< myshortcode red bg-success "Images de Mennecy" >}}
+<!--foldergalelery shorcode  point on images in the static directory only  --> 
 {{<foldergallery src="img/" hover-effect="grow" >}}
 {{</myshortcode>}}
 ___
@@ -19,7 +19,7 @@ ___
 
 <!--  create in the content a galleries content that contents only images in different 
 directories called ohd, gallery1 etc -->
-* [Galerie de Photo](/galleries/ohd/)
+* [Galerie de Photo](/galleries/douentza-boni/)
 
 
 
@@ -28,19 +28,20 @@ directories called ohd, gallery1 etc -->
 
 * [Galery2](/galleries/gallery2/)
 
-* [Ada Chez Kadji a Bamako](/documents/img/)
+* [Boni Info](/documents/img/)
 
 ___
 <!-- local images -->
 
 <!--  this shortcode renders images under contents directories 
-Some bug hover-effect ?? -->
-{{< myshortcode red bg-light "Images de la famille Dicko B" >}}
+Some bug hover-effect ?? 
+{{< myshortcode red bg-light "You will love Paris" >}}
     {{< gallery caption-effect="fade" hover-effect="grow" >}}
    
 {{</myshortcode>}}
-___
 
+___
+-->
 
 
 

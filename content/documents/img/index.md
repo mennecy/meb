@@ -12,7 +12,7 @@ ___
 >
 > 
 >>> gallerie de photos
-* [Famille Dicko Oumar a Bamako au Mali](/galleries/ohd/)
+* [Gallerie de photo Boni - Douentza](/galleries/douentza-boni/)
 >
 ___
 >>> Formation Accoucheuses

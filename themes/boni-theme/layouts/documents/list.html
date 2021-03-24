@@ -14,16 +14,6 @@
             font-family: "Sofia", serif;
         }
         
-        .btn {
-            will-change: transform;
-            transition: transform 450ms;
-        }
-        
-        .btn:hover {
-            transition: transform 125ms;
-            transform: translateY(-10px);
-        }
-        
         div.gallery {
             display: flex;
             flex-wrap: wrap;
@@ -51,14 +41,14 @@
 
 
     <!-- main title -->
-    <div class="container-flex  centered  text-center text-black  bg-info pt-5 mt-5">
+    <div class="container-flex  centered  text-center text-black">
         <h1>
             {{ with .Site.Params.Description }}
             <span class="subheading">{{ . }}</span> {{ end }}
         </h1>
     </div>
 
-    <div class="row">
+    <div class="row bg-info pt-0 mt-0">
         {{ range .Pages }}
         <div class="col  container">
             <a class="btn btn-primary" href="{{ .RelPermalink }}" role="button">{{ .Title }}</a>
@@ -67,10 +57,10 @@
         {{ end }}
     </div>
 
-    <div class="container-fluid pt-5">{{ .Content }}</div>
+    <div class="container-fluid pt-5 bg-info">{{ .Content }}</div>
 
     <!-- Manipulating images in hugo this is listing all images in Page Bundle  
-        Allow to retrieve all the page resources by type. -->
+        Allow to retrieve all the page resources by type.
 
     <div class="container-flex">
         <div class="gallery row ">
@@ -83,11 +73,11 @@
             {{ end }} {{ end }}
         </div>
     </div>
-
-
-    <p class="bg-danger"> hovereffect</p>
-    <h1 class="text-decoration-underline text-center bg-success"> {{ .Page.Params.images.imageB }}</h1>
+ -->
     <!-- Trying hovereffect -->
+
+    <h1 class="text-decoration-underline text-center bg-success"> {{ .Page.Params.images.imageB }}</h1>
+
     <div class="gallery hovereffect">
         {{ with .Resources.ByType "image" }} {{ range . }} {{ $original := . }} {{ $alt := $original }}
         <a data-fancybox="x" href="{{ $original }}">

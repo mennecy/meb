@@ -70,7 +70,7 @@ ___
 <!-- Photo gallery giving the iamge source statics/img -- but goud be changed anywhere -->
 {{< foldergallery src="img" >}}
 
-
+{{< foldergallery src="Boni" >}}
 
 {{< load-photoswipe >}} 
 <!-- nested shortcodes -->
