@@ -2,6 +2,8 @@
 # git add .
 # git commit -m "Somme changes"
 # git branch -M main   
+# git pull --rebase origin main
+
 # Push source and build repos.
-# git push -u origin master
+# git push -u origin main
 
