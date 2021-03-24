@@ -1,6 +1,4 @@
-# meb
-Readme for meb
-
+# Readme for meb
 # git add .
 # git commit -m "Somme changes"
 # git branch -M main   
