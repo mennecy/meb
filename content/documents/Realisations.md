@@ -80,6 +80,3 @@ ___
   {{< myimage src="/Boni/logo-meb.jpg"  class="figure-img img-fluid rounded" >}}
 {{< /mygallery >}}
 
-
-<!-- another shortcode to display image  here we have Douent again -->
-{{< myimage src="/Boni/Douentza-ville-cercle-panneau-plaque.jpg" >}}
