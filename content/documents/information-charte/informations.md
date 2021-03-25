@@ -28,7 +28,7 @@ ___
 * # Voeux du president
 	* [Voeux 2021](/Boni/voeux2021.png)
 ___
-* # Informations diverses
+* # Informations diverses - Essonne & Menency
 	* [Site officiel - Service Public](http://www.service-public.fr/ "Site officiel Service public")
 	* [Site officiel du departement de l'Essonne ](http://www.essonne.fr/ "Site officiel du departement de l'Essonne")
 	* [Site officiel de la ville de Mennecy (Essonne)](http://www.mennecy.fr/ "Site officiel de la ville de Mennecy")
@@ -39,3 +39,7 @@ ___
 	* [Site officiel - Service Public](http://www.lessormali.com/ "Site officiel")
 	* [Maliweb](http://www.maliweb.net/ "maliweb")
 	* [Malijet](http://www.malijet.com/ "Malijet")
+
+* # Infos sur Boni au Mali
+	* [Boni selon wikipedia](https://fr.wikipedia.org/wiki/Boni_(Mali) "Wikipedia")
+	* [Nouvelles de Boni Fevrier 2021 - Sources: Le point.fr](https://www.lepoint.fr/afrique/mali-9-soldats-maliens-tues-dans-une-attaque-dans-le-centre-03-02-2021-2412566_3826.php#)
