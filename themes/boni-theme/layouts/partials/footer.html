@@ -20,15 +20,11 @@
 <body>
 
     <footer>
-        <div class="container centered">
+        <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="container centered">
+                    <div class="container">
                         <div class="row">
-                            {{ with .Site.Params.avatarurl }} {{ $avatar := . }}
-
-                            <div class="avatar"><img src="{{ $avatar | absURL }}" alt="avatar"></div>
-                            {{ end }}
                             <h1>{{ .Site.Params.author }}</h1>
                             <h2>{{ .Site.Params.info }}</h2>
                             <h3>{{ .Site.Params.address }}</h3>

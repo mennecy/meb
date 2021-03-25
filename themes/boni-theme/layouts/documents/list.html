@@ -59,21 +59,7 @@
 
     <div class="container-fluid pt-5 bg-info">{{ .Content }}</div>
 
-    <!-- Manipulating images in hugo this is listing all images in Page Bundle  
-        Allow to retrieve all the page resources by type.
 
-    <div class="container-flex">
-        <div class="gallery row ">
-            {{ with .Resources.ByType "image" }} {{ range . }} {{ $original := . }} {{ $alt := $original }} {{ $fited := $original.Fit "200x200" }}
-            <div class="col bg-body">
-                <a data-fancybox="x" class="info" href="{{ $original }}">
-                    <img class="img-responsive" src="{{ $fited.RelPermalink }}" alt="meb">
-                </a>
-            </div>
-            {{ end }} {{ end }}
-        </div>
-    </div>
- -->
     <!-- Trying hovereffect -->
 
     <h1 class="text-decoration-underline text-center bg-success"> {{ .Page.Params.images.imageB }}</h1>
@@ -89,10 +75,6 @@
 
     <!-- add footer-->
     <h1 class="text-decoration-underline text-center bg-success">{{ partial "footer.html" . }}</h1>
-
-
-
-
 </body>
 
 </html>

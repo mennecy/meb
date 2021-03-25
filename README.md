@@ -1,3 +1,5 @@
+https://github.com/anvithks/hugo-embed-pdf-shortcode#license
+
 # Readme for meb
 # git add .
 # git commit -m "Somme changes"
