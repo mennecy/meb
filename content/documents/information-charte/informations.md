@@ -39,6 +39,8 @@ ___
 	* [Site officiel - Service Public](http://www.lessormali.com/ "Site officiel")
 	* [Maliweb](http://www.maliweb.net/ "maliweb")
 	* [Malijet](http://www.malijet.com/ "Malijet")
+	* [Le Combat](http://www.lecombat.fr/ "Le combat")
+
 
 * # Infos sur Boni au Mali
 	* [Boni selon wikipedia](https://fr.wikipedia.org/wiki/Boni_(Mali) "Wikipedia")
