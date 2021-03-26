@@ -13,7 +13,6 @@
 <body>
     {{ partial "header.html" . }}
 
-
     <div class="container-flex  centered  text-center text-black bg-info pt-5 mt-5">
         <h1>
             {{ with .Site.Params.Description }}
@@ -21,7 +20,7 @@
         </h1>
         <p>
             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"> 
-                Qui sommes nous?
+                Quels sont les membres du CA?
             </button>
         </p>
     </div>
@@ -30,9 +29,6 @@
         {{ range .Pages }}
         <div class="card-group display text-center pb-1">
             <div class="card" style="width:18rm">
-                <!--
-                    <img src="/Boni/small-meb.jpg" class="card-img-top" alt="">
-                    -->
                 <div class="card-body">
                     <div class="card-header">
                         <h1 href="{{ .RelPermalink }}">{{ .Title }}</h1>
