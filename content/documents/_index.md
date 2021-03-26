@@ -5,16 +5,6 @@ draft: false
 ---
 ___
 
- {{< load-photoswipe >}}
-
-{{< myshortcode red bg-success "Images de Mennecy" >}}
-<!--foldergalelery shorcode  point on images in the static directory only  --> 
-{{<foldergallery src="img/" hover-effect="grow" >}}
-{{</myshortcode>}}
-___
-
-
-
 <!--  create in the content a galleries content that contents only images in different 
 directories called ohd, gallery1 etc -->
 * [Galerie de Photo](/galleries/douentza-boni/)

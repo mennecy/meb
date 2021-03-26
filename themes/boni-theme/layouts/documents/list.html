@@ -36,17 +36,7 @@
             {{ end }}
         </div>
     </div>
-    <!-- add some images here using gallery shortcode -->
-    <!-- Trying hovereffect -->
-    <h1 class="text-decoration-underline text-center bg-success"> {{ .Page.Params.images.imageB }}</h1>
 
-    <div class="gallery hovereffect">
-        {{ with .Resources.ByType "image" }} {{ range . }} {{ $original := . }} {{ $alt := $original }}
-        <a data-fancybox="x" href="{{ $original }}">
-            <img src="{{ $original }}">
-        </a>
-        {{ end }} {{ end }}
-    </div>
     <!-- Add the md content -->
     <div class="container-fluid bg-light">{{ .Content }}</div>
 
