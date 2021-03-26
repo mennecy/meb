@@ -19,13 +19,13 @@
     {{ partial "header.html" . }}
 
     <!-- main title -->
-    <div class="container-flex  centered  text-center text-black bg-info pt-5 mt-5">
+    <div class="container-flex centered  text-center text-black bg-info pt-5 mt-5">
         <h1>
             {{ with .Site.Params.Description }}
             <span class="subheading">{{ . }}</span> {{ end }}
+            <br/>
         </h1>
-
-
+        <br/>
         <div class="row bg-info pt-0 mt-0">
             {{ range .Pages }}
             <div class="col  container">
