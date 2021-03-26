@@ -19,14 +19,22 @@
     <!-- menu header -->
     {{ partial "header.html" . }}
 
-
     <!-- main title -->
-    <div class="container-flex  centered  text-center text-black">
+
+
+
+    <div class="container-flex  centered  text-center text-black bg-info pt-5 mt-5">
         <h1>
             {{ with .Site.Params.Description }}
             <span class="subheading">{{ . }}</span> {{ end }}
         </h1>
+
     </div>
+
+
+
+
+
 
     <div class="row bg-info pt-0 mt-0">
         {{ range .Pages }}
@@ -36,6 +44,7 @@
         </div>
         {{ end }}
     </div>
+
 
     <div class="container-fluid pt-5 bg-info">{{ .Content }}</div>
 
@@ -51,7 +60,6 @@
         </a>
         {{ end }} {{ end }}
     </div>
-
 
     <!-- add footer-->
     <h1 class="text-decoration-underline text-center bg-success">{{ partial "footer.html" . }}</h1>
