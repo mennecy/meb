@@ -17,9 +17,9 @@ ___
 ___
 >>> Formation Accoucheuses
 * [Rapport sur la Formation accoucheuses](/Boni/rapport-de-formation2020.pdf)
-
+<!--
 {{< embed-pdf url="/Boni/rapport-de-formation2020.pdf" >}}
-
+-->
 * [Liste de presence pour la formation d'accoucheuses](/Boni/liste-presence--formation2020.pdf)
 
 >>> Rentree de MEB 2020
