@@ -5,6 +5,6 @@ draft: false
 author: "Hamadoun Dicko"
 ---
 
-## This is gallery1
+
 {{< gallery >}} 
 

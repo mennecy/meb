@@ -1,11 +1,7 @@
- {{ partial "header.html" . }}
-
-<p> This is Terms.html in _default directory</p>
-
 <!-- Page Header -->
+{{ partial "header.html" . }}
 
-
-<header class="intro-header pt-lg-5" style="background-image: url('{{ .Site.BaseURL }}/img/mennecy1.jpg')">
+<header class="intro-header pt-lg-5" style="background-image: url('{{ .Site.BaseURL }}/Boni/small-meb.jpg')">
     <div class="container pt-5">
         <div class="row">
             <div class="col">
@@ -26,5 +22,6 @@
     </div>
     {{ end }}
 </div>
+<!-- add footer-->
 
-{{ partial "footer.html" . }}
+<h1 class="text-decoration-underline text-center bg-success">{{ partial "footer.html" . }}</h1>
