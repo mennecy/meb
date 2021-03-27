@@ -10,14 +10,11 @@
 
 <p class="text-center text-info fs-1"> {{ .Title }}</p>
 
-
-
 <div class="row">
     {{ range .Pages }}
     <div class="col fs-4 border  border-0 bg-light text-center">
+
         <a href="{{ .Permalink }}">{{ .Title }}</a> {{ end }}
     </div>
-
 </div>
-
 {{ end }}
