@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Mennecy Echange Boni"
 theme = "boni-theme"
 paginate = 6
-image = "/Boni/oni/small-meb.jpg"
+image = "/Boni/small-meb.jpg"
 description = "Solidarite Mennecy Echange Boni"
 enableInlineShortcodes = "true"
 [markup]
@@ -79,7 +79,8 @@ disableLatLong = false
 ### params
 [params]
   DateForm = "Mon, Jan 2, 2006"
-  Description = "Mennecy (France) & Boni (Mali) : Deux Villes solidaires"
+  # Description = "Mennecy (France) & Boni (Mali) : Deux Villes solidaires"
+  Description = "Leidimen notre terre humaine et solidaire"
   author = "Mennecy Echange Boni"
   email = "clhroumejon@aol.com"
   address = "9, rue du Parc - 91540 Mennecy"
