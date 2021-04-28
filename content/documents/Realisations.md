@@ -1,5 +1,5 @@
 ---
-title: "contacter Mennecy Echange Boni"
+title: "contacter Mennecy Echange"
 date: 2019-11-06T10:08:23+01:00
 draft: false
 color: blue
@@ -26,14 +26,12 @@ color: blue
     </ul>
 {{</myshortcode>}}
 
-___
 
 >>> Boni by google maps - Ou se trouve Boni au Mali
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1661844.8381544824!2d-2.8021182717011017!3d14.660629180317539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe235f29b68d688b%3A0xf6bcc763e8b234cc!2sBoni%2C%20Mali!5e0!3m2!1sfr!2sfr!4v1612113410438!5m2!1sfr!2sfr" width="1300" height="800" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1661844.8381544824!2d-2.8021182717011017!3d14.6
-60629180317539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe235f29b68d688b%3A0xf6bcc763e8b234cc!2sBoni%2C%
-20Mali!5e0!3m2!1sfr!2sfr!4v1612113410438!5m2!1sfr!2sfr" width="1300" height="800" frameborder="0" style="border:0;
-" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
 ___
 {{<myshortcode >}}
 <span class="fs-2 text-center">Un peu de musique et folklore peulh de Boni et du Mali EM Fest 2021.
