@@ -28,7 +28,7 @@ color: blue
 
 ___
 
->>> Boni by google maps - Ou se trove Boni au Mali
+>>> Boni by google maps - Ou se trouve Boni au Mali
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1661844.8381544824!2d-2.8021182717011017!3d14.6
 60629180317539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe235f29b68d688b%3A0xf6bcc763e8b234cc!2sBoni%2C%
