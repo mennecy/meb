@@ -29,11 +29,12 @@
         <br/>
         <!-- add button on each page -->
         <div class="row bg-info pt-0 mt-0">
-            {{ range .Pages }}
+
             <div class="col  container">
-                <a class="btn btn-primary" href="{{ .RelPermalink }}" role="button">{{ .Title }}</a>
+                {{ range .Pages }}
+                <a class="btn btn-primary" href="{{ .RelPermalink }}" role="button">{{ .Title }}</a> {{ end }}
             </div>
-            {{ end }}
+
         </div>
     </div>
 
