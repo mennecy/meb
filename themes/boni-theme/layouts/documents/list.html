@@ -24,17 +24,14 @@
         <h1>
             {{ with .Site.Params.Description }}
             <span class="subheading">{{ . }}</span> {{ end }}
-            <br/>
         </h1>
-        <br/>
+
         <!-- add button on each page -->
         <div class="row bg-info pt-0 mt-0">
-
             <div class="col  container">
                 {{ range .Pages }}
-                <a class="btn btn-primary" href="{{ .RelPermalink }}" role="button">{{ .Title }}</a> {{ end }}
+                <a class="btn btn-warning border border-2" href="{{ .RelPermalink }}" role="button">{{ .Title }}</a> {{ end }}
             </div>
-
         </div>
     </div>
 
