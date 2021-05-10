@@ -18,11 +18,11 @@ author: "Hamadoun Dicko"
 	* [Repas solidaire 2019 - Mennecy](/Boni/repas-solidaire092019.png)
 
 	
-	* [ EMFEST 2020](/Boni/EMFEST2020.pdf)
+	* [ emfest 2020](/Boni/EMFEST2020.pdf)
 
 
 
-	* [ Festival Solidaite -Ecole ou Travail 16 Novembre 2019 CERNY](/Boni/cerny-16-novembre2019.jpg)
+	* [ Festival Solidaite -Ecole ou Travail 16 Novembre 2019 Cerny](/Boni/cerny-16-novembre2019.jpg)
 	
 ___
 * # Voeux du president
@@ -32,10 +32,10 @@ ___
 	* [Site officiel - Service Public](http://www.service-public.fr/ "Site officiel Service public")
 	* [Site officiel du departement de l'Essonne ](http://www.essonne.fr/ "Site officiel du departement de l'Essonne")
 	* [Site officiel de la ville de Mennecy (Essonne)](http://www.mennecy.fr/ "Site officiel de la ville de Mennecy")
-	* [COSIVE : COLLECTIF DE SOLIDARITE INTERNATIONALE DU VAL D'ESSONNE ](//http://cosive91.weebly.com/ "Site Cosive")
+	* [Cosive: collectif de solidarite Internationale du Val D'Essonne ](//http://cosive91.weebly.com/ "Site Cosive")
 	* [Association Aïgouma ](https://aigouma.wordpress.com// "Site Aigouma")
 	* [Peuples Solidaires Ballancourt ](http://psb91.weebly.com/ "Site Peuples Solidaires Ballancourt")
-	* [TERRE DES ENFANTS ](http://tde91.weebly.com/ "Site TERRE DES ENFANTS")
+	* [Terre Des Enfants ](http://tde91.weebly.com/ "Site TERRE DES ENFANTS")
 	* [Agence de l'Environnement et de la Maîtrise de l'Énergie
 		Changement climatique - transition écologique, énergétique ](https://www.ademe.fr/demain-territoire)
 

@@ -79,8 +79,8 @@ disableLatLong = false
 ### params
 [params]
   DateForm = "Mon, Jan 2, 2006"
-  # Description = "Mennecy (France) & Boni (Mali) : Deux Villes solidaires"
-  Description = "Leidimen notre terre humaine et solidaire"
+  Description = "Mennecy (France) & Boni (Mali) : Deux Villes solidaires (mennecyechangeboni.org)"
+  # Description = "Leidimen notre terre humaine et solidaire"
   author = "Mennecy Echange Boni"
   email = "clhroumejon@aol.com"
   address = "9, rue du Parc - 91540 Mennecy"
@@ -98,17 +98,17 @@ disableLatLong = false
     name = "facebook"
     icon = "fab fa-facebook"
     weight = 1
-    url = "https://www.facebook.com/dicko.hamadoun.3"
+    url = "https://www.facebook.com/Mennecyechangeboni"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
     weight = 2
-    url = "https://twitter.com/@HamadounDicko"
+    url = "https://twitter.com/@mennecyechangeboni"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 3
-    url = "https://www.linkedin.com/in/hamadoundicko"
+    url = "https://www.linkedin.com/in/mennecyechangeboni"
 
 [menu]
 
