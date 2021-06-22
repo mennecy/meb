@@ -1,4 +1,3 @@
-# github - mennecy/meb config file 
 relativeURLs = true
 languageCode = "en-us"
 title = "Mennecy Echange Boni"
@@ -80,8 +79,7 @@ disableLatLong = false
 ### params
 [params]
   DateForm = "Mon, Jan 2, 2006"
-  Description = "Mennecy (France) & Boni (Mali) : Deux Villes solidaires (mennecyechangeboni.org)"
-  Description = "Mennecy Echanges Boni"
+  Description = "Mennecy (France) & Boni (Mali) : Deux Villes solidaires"
   author = "Hamadoun Dicko"
   email = "mennecy.echange.boni@gmail.com"
   address = "9, rue du Parc - 91540 Mennecy"

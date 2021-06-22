@@ -7,14 +7,14 @@ ___
 
 <!--  create in the content a galleries content that contents only images in different 
 directories called ohd, gallery1 etc -->
-* [Galerie de Photo](/galleries/douentza-boni/)
+* [Galerie de Photo - Ville de Boni et environ](/galleries/douentza-boni/)
 
 
 
-* [Galery1](/galleries/gallery1/)
+* [Ecole de Boni Juin 2021](/galleries/ecole/)
 
 
-* [Galery2](/galleries/gallery2/)
+* [Preparation de la restauration de l'Ecole](/galleries/restauration/)
 
 * [Boni Info](/documents/img/)
 

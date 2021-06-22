@@ -11,8 +11,8 @@ author: "Hamadoun Dicko"
 ___
 >
 > 
->>> gallerie de photos
-* [Gallerie de photo Boni - Douentza](/galleries/douentza-boni/)
+>>> gallerie de photos Ville de Boni et environ
+* [Gallerie de photo Boni et environs](/galleries/douentza-boni/)
 >
 ___
 >>> Formation Accoucheuses
