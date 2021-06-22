@@ -1,3 +1,4 @@
+# github - mennecy/meb config file 
 relativeURLs = true
 languageCode = "en-us"
 title = "Mennecy Echange Boni"
@@ -80,13 +81,13 @@ disableLatLong = false
 [params]
   DateForm = "Mon, Jan 2, 2006"
   Description = "Mennecy (France) & Boni (Mali) : Deux Villes solidaires (mennecyechangeboni.org)"
-  # Description = "Leidimen notre terre humaine et solidaire"
-  author = "Mennecy Echange Boni"
-  email = "clhroumejon@aol.com"
+  Description = "Mennecy Echanges Boni"
+  author = "Hamadoun Dicko"
+  email = "mennecy.echange.boni@gmail.com"
   address = "9, rue du Parc - 91540 Mennecy"
   tel= "+33678555367"
   avatarurl = "Boni/small-meb.jpg"
-  presentation = "Qui Sommes-nous?"
+  presentation = "Association Essonnienne de Mennecy avec Boni au Mali"
 
   ### Analytics
   Ganalytics = ""
