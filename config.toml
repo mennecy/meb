@@ -80,7 +80,7 @@ disableLatLong = false
 [params]
   DateForm = "Mon, Jan 2, 2006"
   Description = "Mennecy (France) & Boni (Mali) : Deux Villes solidaires"
-  author = "Hamadoun Dicko"
+  meb = "MEB - Mennecy Echange Boni"
   email = "mennecy.echange.boni@gmail.com"
   address = "9, rue du Parc - 91540 Mennecy"
   tel= "+33678555367"
