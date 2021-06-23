@@ -43,8 +43,9 @@ ___
 ___
 
 <!-- nested shortcodes -->
-<!-- displaying images Douentza et boni from static/Boni directory -->
+<!-- displaying images Douentza et boni from static/Boni directory 
 {{< mygallery class="content-gallery" >}}
   {{< myimage src="/Boni/logo-meb.jpg"  class="figure-img img-fluid rounded" >}}
 {{< /mygallery >}}
 
+-->
