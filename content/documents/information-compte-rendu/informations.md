@@ -1,5 +1,5 @@
 ---
-title: "Informations"
+title: "Informations et Associations & Partenaires"
 date: 2019-11-13T15:32:40+01:00
 draft: false
 author: "Hamadoun Dicko"
@@ -28,7 +28,7 @@ ___
 * # Voeux du president
 	* [Voeux 2021](/Boni/voeux2021.png)
 ___
-* # Informations diverses - Essonne & Menency
+* # Associations et Partenaires - Essonne & Menency
 	* [Site officiel - Service Public](http://www.service-public.fr/ "Site officiel Service public")
 	* [Site officiel du departement de l'Essonne ](http://www.essonne.fr/ "Site officiel du departement de l'Essonne")
 	* [Site officiel de la ville de Mennecy (Essonne)](http://www.mennecy.fr/ "Site officiel de la ville de Mennecy")

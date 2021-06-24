@@ -98,16 +98,7 @@ disableLatLong = false
     icon = "fab fa-facebook"
     weight = 1
     url = "https://www.facebook.com/Mennecyechangeboni"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
-    weight = 2
-    url = "https://twitter.com/@mennecyechangeboni"
-[[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin"
-    weight = 3
-    url = "https://www.linkedin.com/in/mennecyechangeboni"
+
 
 [menu]
 

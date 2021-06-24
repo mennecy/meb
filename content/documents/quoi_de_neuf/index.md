@@ -12,7 +12,7 @@ ___
 >
 > 
 >>> gallerie de photos Ville de Boni et environ
-* [Gallerie de photo Boni et environs](/galleries/douentza-boni/)
+* [Gallerie de photo Boni et environs](/galleries/boni_environs/)
 >
 ___
 >>> Formation Accoucheuses
