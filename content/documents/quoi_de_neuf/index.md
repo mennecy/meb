@@ -10,13 +10,14 @@ author: "Hamadoun Dicko"
 
 {{< gallery dir="/documents/img/" hover-effect="grow" hover-transition="none" >}}
 ___
---> 
+
 >
 > 
 >>> gallerie de photos Ville de Boni et environ
 * [Gallerie de photo Boni et environs](/galleries/boni_environs/)
 >
 ___
+-->
 >>> Formation Accoucheuses
 * [Rapport sur la Formation accoucheuses](/Boni/rapport-de-formation2020.pdf)
 <!--
