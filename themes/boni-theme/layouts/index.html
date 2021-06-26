@@ -36,27 +36,36 @@
 
         <!-- adding info qui sommes nous? -->
         {{ partial "carte_de_boni.html"}}
-        <div class="mapouter">
-            <div class="gmap_canvas"><iframe width="1080" height="305" id="gmap_canvas" src="https://maps.google.com/maps?q=boni,%20mali&t=&z=7&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                <a href="https://www.whatismyip-address.com"></a><br>
-                <style>
-                    .mapouter {
-                        position: relative;
-                        text-align: right;
-                        height: 305px;
-                        width: 1080px;
-                    }
-                </style><a href="https://www.embedgooglemap.net">embed code for google map</a>
-                <style>
-                    .gmap_canvas {
-                        overflow: hidden;
-                        background: none!important;
-                        height: 305px;
-                        width: 1080px;
-                    }
-                </style>
-            </div>
-        </div>
+        <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+            <script>
+                (function() {
+                    var setting = {
+                        "height": 531,
+                        "width": 803,
+                        "zoom": 14,
+                        "queryString": "Boni, Mali",
+                        "place_id": "ChIJi2iNtilfIw4RzDSy6GPHvPY",
+                        "satellite": false,
+                        "centerCoord": [15.07804923393028, -2.220418469336458],
+                        "cid": "0xf6bcc763e8b234cc",
+                        "lang": "fr",
+                        "cityUrl": "/ghana/boni-415110",
+                        "cityAnchorText": "Carte de Boni, Asante Akim North, Ghana",
+                        "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+                        "embed_id": "534558"
+                    };
+                    var d = document;
+                    var s = d.createElement('script');
+                    s.src = 'https://1map.com/js/script-for-user.js?embed_id=534558';
+                    s.async = true;
+                    s.onload = function(e) {
+                        window.OneMap.initMap(setting)
+                    };
+                    var to = d.getElementsByTagName('script')[0];
+                    to.parentNode.insertBefore(s, to);
+                })();
+            </script><a href="https://1map.com/fr/map-embed">1 Map</a></div>
     </div>
 
 </body>
