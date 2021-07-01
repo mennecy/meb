@@ -31,6 +31,10 @@
         a:active {
             color: yellow;
         }
+        
+        .box-1 {
+            box-shadow: 8px 10px 10px 1px rgba(0, 0, 0, 0.5);
+        }
     </style>
 </head>
 
@@ -49,7 +53,7 @@
         <div class="row bg-info pt-0 mt-0">
             <div class="col container">
                 {{ range .Pages }}
-                <a class="btn btn-outline-dark border border-0" href="{{ .RelPermalink }}" role="button">{{ .Title }}</a> {{ end }}
+                <a class="btn btn-outline-dark border border-0 box-1" href="{{ .RelPermalink }}" role="button">{{ .Title }}</a> {{ end }}
             </div>
         </div>
     </div>

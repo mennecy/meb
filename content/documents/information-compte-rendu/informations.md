@@ -1,5 +1,5 @@
 ---
-title: "Informations et Associations & Partenaires"
+title: "Informations - Associations & Partenaires"
 date: 2019-11-13T15:32:40+01:00
 draft: false
 author: "Hamadoun Dicko"
