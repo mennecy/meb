@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-* # Comptes rendus de Reunions
+* # Compte rendu de Reunions
 
     * [ Compte rendu de reunion  du CA le 17 Septembre 2020](/Boni/cr-reunion-ca-17-sept-2020.pdf)
     * [ Compte rendu de reunion  du CA le 23 Juin 2020](/Boni/CR-CA-MEB-23-juin-2020.pdf)
@@ -14,7 +14,8 @@ draft: false
 
 	
 	<!-- nested shortcodes -->
-<!-- displaying images Douentza et boni from static/Boni directory -->
+<!-- displaying images Douentza et boni from static/Boni directory 
 {{< mygallery class="content-gallery" >}}
   {{< myimage src="/Boni/logo-meb.jpg"  class="figure-img img-fluid rounded" >}}
 {{< /mygallery >}}
+-->
