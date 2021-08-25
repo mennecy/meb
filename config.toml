@@ -5,6 +5,7 @@ theme = "boni-theme"
 paginate = 6
 image = "/Boni/small-meb.jpg"
 description = "Solidarite Mennecy Echange Boni"
+presentation = "Presentation de Mennecy Echanges Boni - MEB"
 enableInlineShortcodes = "true"
 [markup]
     [markup.goldmark]
