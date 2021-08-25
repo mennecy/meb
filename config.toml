@@ -4,8 +4,6 @@ title = "Mennecy Echange Boni"
 theme = "boni-theme"
 paginate = 6
 image = "/Boni/small-meb.jpg"
-description = "Solidarite Mennecy Echange Boni"
-presentation = "Presentation de Mennecy Echanges Boni - MEB"
 enableInlineShortcodes = "true"
 [markup]
     [markup.goldmark]
@@ -81,6 +79,7 @@ disableLatLong = false
 [params]
   DateForm = "Mon, Jan 2, 2006"
   Description = "Mennecy (France) & Boni (Mali) : Deux Villes solidaires"
+  Presentation = "Presentation de Mennecy Echanges Boni - MEB"
   meb = "MEB - Mennecy Echanges Boni"
   email = "mennecy.echange.boni@gmail.com"
   address = "9, rue du Parc - 91540 Mennecy"

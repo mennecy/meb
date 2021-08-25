@@ -5,9 +5,6 @@
     <title>{{ .Site.Title }}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|shadow-multiple">
     <style>
         /*
@@ -18,7 +15,7 @@
         
         .card {
             padding: 10px;
-            height: 250px;
+            height: 200px;
             border: none;
             -webkit-box-shadow: 0px 1px 9px 3px rgba(219, 210, 219, 1);
             -moz-box-shadow: 0px 1px 9px 3px rgba(219, 210, 219, 1);
@@ -27,7 +24,7 @@
             justify-content: center;
             align-items: center
         }
-        
+        /*
         blockquote {
             -webkit-box-shadow: 0px 1px 9px 3px rgba(219, 210, 219, 1);
             -moz-box-shadow: 0px 1px 9px 3px rgba(219, 210, 219, 1);
@@ -36,89 +33,89 @@
             justify-content: center;
             align-items: center
         }
+        */
     </style>
 </head>
+<!-- header -->
+{{ partial "header.html" . }}
 
-<body style="text-align: center;">
-    {{ partial "header.html" . }}
-    <div class="container-flex  centered  text-center text-black bg-info pt-5 mt-5">
-        <h1>
-            {{ with .Site.Params.Description }}
-            <span class="subheading">{{ . }}</span> {{ end }}
-        </h1>
+<div class="container-flex  centered  text-center text-black bg-info pt-5 mt-5">
+    <h1>
+        {{ with .Site.Params.Description }}
+        <span class="subheading">{{ . }}</span> {{ end }}
+    </h1>
+</div>
+
+<div class="container-flex text-center bg-light mx-auto pb-0">
+    <!-- adding infos charte -->
+    {{ partial "intro" }}
+
+    <!-- adding info que voulons nous ?? -->
+    {{ partial "boni_wikipedia"}}
+
+    <!-- adding info qui sommes nous? -->
+    {{ partial "carte_de_boni.html"}}
+    <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+        <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+        <script>
+            (function() {
+                var setting = {
+                    "height": 531,
+                    "width": 803,
+                    "zoom": 14,
+                    "queryString": "Boni, Mali",
+                    "place_id": "ChIJi2iNtilfIw4RzDSy6GPHvPY",
+                    "satellite": false,
+                    "centerCoord": [15.07804923393028, -2.220418469336458],
+                    "cid": "0xf6bcc763e8b234cc",
+                    "lang": "fr",
+                    "cityUrl": "/ghana/boni-415110",
+                    "cityAnchorText": "Carte de Boni, Asante Akim North, Ghana",
+                    "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+                    "embed_id": "534558"
+                };
+                var d = document;
+                var s = d.createElement('script');
+                s.src = 'https://1map.com/js/script-for-user.js?embed_id=534558';
+                s.async = true;
+                s.onload = function(e) {
+                    window.OneMap.initMap(setting)
+                };
+                var to = d.getElementsByTagName('script')[0];
+                to.parentNode.insertBefore(s, to);
+            })();
+        </script><a href="https://1map.com/fr/map-embed">1 Map</a></div>
+</div>
+
+<!-- Nos contacter -->
+<div class="container-flex mt-2">
+    <div class="text-center mb-3">
+        <h3>Nous contacter</h3>
     </div>
-
-    <div class="container-flex text-center bg-light mx-auto pb-0">
-        <!-- adding infos charte -->
-        {{ partial "intro" }}
-
-        <!-- adding info que voulons nous ?? -->
-        {{ partial "boni_wikipedia"}}
-
-        <!-- adding info qui sommes nous? -->
-        {{ partial "carte_de_boni.html"}}
-        <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
-            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
-            <script>
-                (function() {
-                    var setting = {
-                        "height": 531,
-                        "width": 803,
-                        "zoom": 14,
-                        "queryString": "Boni, Mali",
-                        "place_id": "ChIJi2iNtilfIw4RzDSy6GPHvPY",
-                        "satellite": false,
-                        "centerCoord": [15.07804923393028, -2.220418469336458],
-                        "cid": "0xf6bcc763e8b234cc",
-                        "lang": "fr",
-                        "cityUrl": "/ghana/boni-415110",
-                        "cityAnchorText": "Carte de Boni, Asante Akim North, Ghana",
-                        "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
-                        "embed_id": "534558"
-                    };
-                    var d = document;
-                    var s = d.createElement('script');
-                    s.src = 'https://1map.com/js/script-for-user.js?embed_id=534558';
-                    s.async = true;
-                    s.onload = function(e) {
-                        window.OneMap.initMap(setting)
-                    };
-                    var to = d.getElementsByTagName('script')[0];
-                    to.parentNode.insertBefore(s, to);
-                })();
-            </script><a href="https://1map.com/fr/map-embed">1 Map</a></div>
-    </div>
-
-
-    <!--------------------------------------------->
-    <div class="container-flex mt-5">
-        <div class="text-center mb-3">
-            <h3>Nous contacter</h3>
+    <div class="row g-2">
+        <div class="col-md-6">
+            <div class="card"> <img src="https://i.imgur.com/xuGJbnU.png" width="40">
+                <h5>Adresse</h5>
+                <p>9, rue du Parc <br>91540 Mennecy, Essonne (FRANCE) </p>{{ with .Site.Params.avatarurl }} {{ $avatar := . }}
+                <div class="avatar"><img src="{{ $avatar | absURL }}" alt="avatar"></div>
+                {{ end }}
+            </div>
         </div>
-        <div class="row g-2">
-            <div class="col-md-6">
-                <div class="card"> <img src="https://i.imgur.com/xuGJbnU.png" width="40">
-                    <h5>Adresse</h5>
-                    <p>9, rue du Parc <br>91540 Mennecy, Essonne (FRANCE) </p>{{ with .Site.Params.avatarurl }} {{ $avatar := . }}
-                    <div class="avatar"><img src="{{ $avatar | absURL }}" alt="avatar"></div>
-                    {{ end }}
-                </div>
+        <div class="col-md-6">
+            <div class="card"> <img src="https://i.imgur.com/TNKflal.png" width="40">
+                <h5>Email</h5>
+                <p>mennecy.echange.boni@gmail.com</p>
             </div>
-            <div class="col-md-6">
-                <div class="card"> <img src="https://i.imgur.com/TNKflal.png" width="40">
-                    <h5>Email</h5>
-                    <p>mennecy.echange.boni@gmail.com</p>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="card"> <img src="https://i.imgur.com/pZLFSO3.png" width="40">
-                    <h5>Telephone</h5>
-                    <p>+33164570576</p>
-                </div>
+        </div>
+        <div class="col-md-12">
+            <div class="card"> <img src="https://i.imgur.com/pZLFSO3.png" width="40">
+                <h5>Telephone</h5>
+                <p>+33164570576</p>
             </div>
         </div>
     </div>
-    <!-------------------------->
+</div>
+<!-------------------------->
 </body>
 
 </html>
