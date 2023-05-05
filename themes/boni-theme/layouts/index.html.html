@@ -1,0 +1,26 @@
+
+{{ define "main" }}
+  <div class="container-flex text-center  mx-auto pb-0">  </div>
+    <!-- adding intro -->
+    {{ partial "intro" . }}
+
+    {{ partial "actions" . }}
+
+    <!-- adding info boni wikipedia -->
+    {{ partial "boni_wikipedia"}}
+
+    {{ partial "carte" . }}
+
+    {{ partial "message" .}}
+
+    <hr class="my-3" />
+
+    <hr class="my-3 mb-3" />
+{{ end }} 
+
+{{ define "footer"}}
+{{ partial "contact"}}
+{{ end }}
+
+  
+

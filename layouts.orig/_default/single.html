@@ -1,0 +1,25 @@
+
+{{ define "main" }}
+
+    <!-- Site description-->
+    <div class="container-flex  centered  text-center text-black  bg-info pt-5 mt-5">
+        <h1>
+            {{ with .Site.Params.Description }}
+            <span class="subheading">{{ . }}</span> {{ end }}
+        </h1>
+    </div>
+
+    <!-- add the content of the md file -->
+    <div class="container-fluid">
+        <div class="row border-primary">
+            <div class="col-sm-12">
+                <p>{{ .Content }}</p>
+            </div>
+        </div>
+    </div>
+{{ end }}
+
+{{ define "footer" }}
+    <!-- add footer-->
+    <h1 class="text-center bg-success">{{ partial "footer.html" . }}</h1>
+{{ end }}

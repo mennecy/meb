@@ -1,0 +1,83 @@
+<!-- grid display  intro section in grid -->
+
+<div class="container-flex">
+  <hr class="my-3" />
+  <div class="row">
+    <div class="col p-4">
+      <div class="container-sm text-center ">
+        {{ partial "nos-actions-depuis-2002.html"}}
+        <!-- list group -->
+        <div class="list-group ">
+          
+          <!-- 
+          <a
+            href="/galleries/ecole/"
+            class="list-group-item "
+            aria-current="true"
+          > 
+        -->
+            <div class="d-flex justify-content-between">
+              <h4 class="lead">Ecole</h4>
+            </div>
+            <p class="mb-1">{{ partial "ecole.html" }}</p>
+          </a>
+          <!-- 
+          <a
+            href="/Boni/rapport-de-formation2020.pdf"
+            class="list-group-item"
+          >
+        -->
+            <div class="d-flex justify-content-between">
+              <h4 class="lead">Sante</h4>
+            </div>
+            <p class="mb-1">{{ partial "sante.html" }}</p>
+          </a>
+          <!-- 
+          <a
+            href="#"
+            class="list-group-item list-group-item-action list-group-item-success"
+          >
+        -->
+            <div class="d-flex justify-content-between">
+              <h4 class="lead">Culture</h4>
+            </div>
+            <p class="mb-1">{{ partial "culture.html" }}</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col p-4">
+      <div class="container-sm text-center">
+        {{ partial "aujourdhui-et-demain.html"}}
+
+        <!-- list group -->
+        <div class="list-group pt-4">
+          <!-- 
+          <a
+            href="/galleries/ecole/"
+            class="list-group-item"
+            aria-current="true"
+          >
+        -->
+
+            <div class="d-flex justify-content-between">
+              <h4 class="lead">Ecole</h4>
+            </div>
+            <p class="mb-1">{{ partial "ecole-aujourdhui.html" }}</p>
+          </a>
+          <!-- 
+          <a
+            href="/Boni/rapport-de-formation2020.pdf"
+            class="list-group-item list-group-item-action list-group-item-secondary"
+          >
+        -->
+            <div class="d-flex justify-content-between">
+              <h4 class="lead">Sante</h4>
+            </div>
+            <p class="mb-1">{{ partial "sante-aujourdhui.html" }}</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

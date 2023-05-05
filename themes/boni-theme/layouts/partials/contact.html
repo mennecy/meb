@@ -1,0 +1,36 @@
+<!-- Nous contacter -->
+<div class="container-flex mt-5">
+  <div class="text-center mb-3">
+    <h3>
+      <small class="text-muted bg-success p-2 text-dark bg-opacity-10">Pour nous contacter</small>
+    </h3>
+  </div>
+  <div class="row g-2">
+    <div class="col-md-6">
+      <div class="card">
+        <img src="https://i.imgur.com/xuGJbnU.png" width="40" />
+        <h5>Adresse</h5>
+        <p>9, rue du Parc <br />91540 Mennecy, Essonne (France)</p>
+        {{ with .Site.Params.avatarurl }} {{ $avatar := . }}
+        <div class="avatar">
+          <img src="{{ $avatar | absURL }}" alt="avatar" />
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <img src="https://i.imgur.com/TNKflal.png" width="40" />
+        <h5>Email</h5>
+        <p>mennecy.echange.boni@gmail.com</p>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="card">
+        <img src="https://i.imgur.com/pZLFSO3.png" width="40" />
+        <h5>Telephone</h5>
+        <p>+33164570576</p>
+      </div>
+    </div>
+  </div>
+</div>

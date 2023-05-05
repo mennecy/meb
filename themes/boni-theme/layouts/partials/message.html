@@ -1,0 +1,62 @@
+<div>
+  <div class="container-flex">
+    
+    <hr class="my-3 mb-3 ">  
+
+    <div class="col-auto text-center"><h1 class="font-effect-shadow-multiple bg-success p-2 text-dark bg-opacity-10">Pour prendre contact ou nous envoyer un message</h1>
+    </div>
+  </div>
+
+  <div class="container-flex text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3 py-1">
+    <form
+      id="fs-frm"
+      name="simple-contact-form"
+      accept-charset="utf-8"
+      action="https://formspree.io/f/xpznrrjd"
+      method="post"
+    >
+      <!-- Label Name input -->
+      <div class="mb-3">
+        <label class="form-label" for="name">Nom</label>
+        <input
+          class="form-control"
+          id="name"
+          name="nom"
+          type="text"
+          placeholder="Nom"
+        />
+      </div>
+
+      <!-- Label Email address input -->
+      <div class="mb-3">
+        <label class="form-label" for="email">Email Address</label>
+        <input
+          class="form-control"
+          name="Email"
+          id="email"
+          type="email"
+          placeholder="Adresse Mail"
+        />
+      </div>
+
+      <!-- Message input -->
+      <div class="mb-3">
+        <label class="form-label" for="message">Message</label>
+        <textarea
+          name="Message"
+          class="form-control"
+          id="message"
+          type="text"
+          placeholder="Message"
+          style="height: 10rem"
+        ></textarea>
+      </div>
+
+      <!-- Form submit button -->
+      <div class="d-grid">
+        <button class="btn btn-primary btn-lg" type="submit">Envoyer</button>
+      </div>
+    </form>
+  </div>
+</div>
+  

@@ -1,0 +1,30 @@
+
+
+{{ define "main"}}
+    <div class="container-flex  centered  text-center text-black pt-0 mt-0">
+        <p>
+            <button class="btn btn-primary box-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMembres"> 
+                Quels sont les membres du CA?
+            </button>
+        </p>
+    </div>
+
+
+    <div class="collapse mb-1" id="collapseMembres">
+        <div class="container text-center">
+            <div class="row row-cols-2 row-cols-lg-2 g-2 g-lg-3 ">
+                {{ range .Pages }}
+                    <div class="card text-bg-secondary" style="width: 24rem;">
+                        <!-- img src="..." class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <h5 class="card-title fs-2 badge">{{ .Title }}</h5>
+                            <p class="card-text">{{ .Params.card.presentation }}</p>
+                            <p class="card-text">{{ .Params.card.devise }}</p>
+                            <a href="{{ .RelPermalink }}" class="btn btn-primary">Mieux me connaitre</a>
+                        </div>
+                    </div>
+                {{ end}}
+            </div>
+        </div>
+    </div>
+    {{ end }}

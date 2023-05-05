@@ -1,0 +1,9 @@
+<!-- Defining myshortcode for text -- should be better -->
+<p style="color: {{ .Get `color` }}"></p>
+<p style="color: {{ .Get 0 }}"> {{ .Page.Params.images }}</p>
+<div class="container-flex {{ .Get 1 }}">
+
+    <h1 class="text-decoration-underline text-center"> {{ .Get 2 }}</h1>
+
+    <div class="display-flex  bg-info"> {{ .Inner }}</div>
+</div>

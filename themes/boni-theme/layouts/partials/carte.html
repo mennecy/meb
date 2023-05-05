@@ -1,0 +1,35 @@
+<!-- adding carte de Boni by google maps -->
+{{ partial "carte_de_boni.html"}}
+<div class="container-fluid" id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+  <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+  <script>
+    (function () {
+      var setting = {
+        height: 531,
+        width: 803,
+        zoom: 14,
+        queryString: "Boni, Mali",
+        place_id: "ChIJi2iNtilfIw4RzDSy6GPHvPY",
+        satellite: false,
+        centerCoord: [15.07804923393028, -2.220418469336458],
+        cid: "0xf6bcc763e8b234cc",
+        lang: "fr",
+        cityUrl: "/ghana/boni-415110",
+        cityAnchorText: "Carte de Boni, Asante Akim North, Ghana",
+        id: "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+        embed_id: "534558",
+      };
+      var d = document;
+      var s = d.createElement("script");
+      s.src = "https://1map.com/js/script-for-user.js?embed_id=534558";
+      s.async = true;
+      s.onload = function (e) {
+        window.OneMap.initMap(setting);
+      };
+      var to = d.getElementsByTagName("script")[0];
+      to.parentNode.insertBefore(s, to);
+    })();
+  </script>
+  <a href="https://1map.com/fr/map-embed">1 Map</a>
+</div>
+
