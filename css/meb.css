@@ -1,0 +1,84 @@
+body {
+  font-family: "Trirong", serif;
+}
+
+/********** https://cssfx.netlify.app ********/
+button {
+  z-index: 1;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  color: white;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  background-color: hsl(236, 32%, 26%);
+}
+
+button::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fc2f70;
+  transform-origin: center right;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:hover::before {
+  transform-origin: center left;
+  transform: scaleX(1);
+}
+
+/******************/
+/* visited state */
+
+a:visited {
+  background-color: rgb(124, 122, 160);
+  border-color: hotpink;
+}
+/* hover state */
+
+a:hover {
+  background-color: rgb(0, 255, 55);
+}
+/* focus state */
+
+a:focus {
+  background-color: green;
+}
+
+a:active {
+  color: rgb(38, 0, 255);
+}
+
+.box-button {
+  box-shadow: 8px 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  padding: 10px;
+  height: 120px;
+  border: none;
+  -webkit-box-shadow: 0px 1px 9px 3px rgb(210, 219, 215);
+  -moz-box-shadow: 0px 1px 9px 3px rgba(219, 210, 219, 1);
+  /* box-shadow: 0px 1px 9px 3px rgba(219, 210, 219, 1);*/
+  box-shadow: rgba(240, 46, 169, 0.575) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.box-button {
+  box-shadow: 8px 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
